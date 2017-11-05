@@ -76,6 +76,15 @@ html, body {
   font-family: 'Raleway', sans-serif !important;
 }
 
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
 .btn {
   border-radius: unset !important;
   border-width: 2px;

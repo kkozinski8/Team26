@@ -4,6 +4,11 @@ html, body {
   overflow-x: hidden;
 }
 
+.profile-divider {
+  width: 90%;
+  margin: 20px 0;
+}
+
 .active {
   font-weight: 700;
 }
@@ -35,6 +40,10 @@ html, body {
 
 .nav-item, .nav-link {
   color: white !important;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar-toggler {

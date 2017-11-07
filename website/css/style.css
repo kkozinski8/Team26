@@ -116,6 +116,9 @@ html, body {
   header h4 {
     display: block !important;
   }
+  header hr {
+    display: inline-block !important;
+  }
 }
 
 @media screen and (min-width: 990px) {

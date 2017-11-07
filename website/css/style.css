@@ -223,6 +223,10 @@ IMAGES
   height: 300px;
 }
 
+.lower {
+  background-position: 50% 20% !important;
+}
+
 .auto-wide {
   position: absolute;
   left: 0;

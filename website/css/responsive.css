@@ -26,4 +26,19 @@
   .card-group, .card-wide {
     flex: 1 0 33.333% !important;
   }
+  .card-group, .people li {
+    flex: 1 0 50% !important;
+  }
+  .people {
+    flex-direction: unset !important;
+  }
+  .people li {
+    padding: 18px 5px;
+  }
+  .profile-divider {
+    display: none;
+  }
+  .people-pic {
+    height: inherit !important;
+  }
 }

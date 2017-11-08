@@ -67,7 +67,7 @@ LAYOUT
 .profile-divider {
   height: 1px;
   width: 90%;
-  margin: 5px auto 20px;
+  margin: 20px auto;
 }
 
 .aligner {
@@ -222,6 +222,7 @@ CONTENT
 .content-text {
   margin: 45px auto 30px;
   text-align: left;
+  line-height: 1.6rem;
   font-family: 'Playfair Display', serif;
 }
 
@@ -242,6 +243,7 @@ CONTENT
 .profile-text {
   margin: 15px auto 0;
   max-width: 700px;
+  line-height: 1.6rem;
   font-family: 'Playfair Display', serif;
 }
 
@@ -313,7 +315,7 @@ MEDIA
   margin: 0 auto;
 }
 
-.staff img {
+.staff-img {
   width: 150px;
   margin-bottom: 20px;
   -webkit-border-radius: 50%;

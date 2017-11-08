@@ -51,6 +51,6 @@
     display: none;
   }
   .people-pic {
-    height: inherit !important;
+    height: 100% !important;
   }
 }

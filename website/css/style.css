@@ -122,6 +122,11 @@ LAYOUT
   flex-direction: column;
 }
 
+.staff {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .references {
   height: auto;
   border-top: 1px solid #ccc;
@@ -211,6 +216,24 @@ CONTENT
   font-family: 'Playfair Display', serif;
 }
 
+.staff h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #black;
+}
+
+.staff p {
+  margin: 0 auto 30px;
+  width: 90%;
+}
+
+.staff .role {
+  color: #black;
+  margin-bottom: 30px;
+  font-weight: normal;
+  display: block;
+}
+
 .research-title {
   color: black;
 }
@@ -256,6 +279,15 @@ MEDIA
   padding: 2px 8px;
   color: black;
   margin: 0 auto;
+}
+
+.staff img {
+  width: 150px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .video-wrapper {
@@ -329,36 +361,4 @@ FEATURES
 .carousel-item {
   width: 100%;
   height: 100%;
-}
-
-
-
-.staff {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.staff img {
-  width: 150px;
-  margin-bottom: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-.staff h3 {
-  font-size: 24px;
-  margin-bottom: 5px;
-  color: #black;
-
-}
-.staff p {
-  margin: 0 auto 30px;
-  width: 90%;
-}
-.staff .role {
-  color: #black;
-  margin-bottom: 30px;
-  font-weight: normal;
-  display: block;
 }

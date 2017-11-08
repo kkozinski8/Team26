@@ -330,3 +330,58 @@ FEATURES
   width: 100%;
   height: 100%;
 }
+
+
+.staff {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.staff img {
+  width: 100px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.staff h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #black;
+
+}
+.staff p {
+  margin-bottom: 30px;
+}
+.staff .role {
+  color: #black;
+  margin-bottom: 30px;
+  font-weight: normal;
+  display: block;
+}
+.social-icons {
+  margin: 0;
+  padding: 0;
+}
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #F85A16;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.social-icons li a i {
+  font-size: 20px;
+}

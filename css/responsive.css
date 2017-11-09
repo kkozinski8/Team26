@@ -1,0 +1,56 @@
+@media screen and (min-width: 576px) {
+  .card-group, .card-wide {
+    flex: 1 0 100% !important;
+    -webkit-flex: 1 0 100% !important;
+    -moz-flex: 1 0 100% !important;
+    -ms-flex: 1 0 100% !important;
+  }
+  .home-pic {
+    height: 100vh;
+  }
+  .home-pic .aligner {
+    height: calc(100vh - 56px) !important;
+  }
+  .home-title {
+    font-size: 3.5rem !important;
+  }
+  .home-tagline {
+    display: block !important;
+  }
+  .horizontal-divider {
+    display: inline-block !important;
+  }
+  .page-title {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .card-group, .card-wide {
+    flex: 1 0 33.333% !important;
+    -webkit-flex: 1 0 33.333% !important;
+    -moz-flex: 1 0 33.333% !important;
+    -ms-flex: 1 0 33.333% !important;
+  }
+  .card-group, .people li {
+    flex: 1 0 50% !important;
+    -webkit-flex: 1 0 50% !important;
+    -moz-flex: 1 0 50% !important;
+    -ms-flex: 1 0 50% !important;
+  }
+  .people {
+    flex-direction: unset !important;
+    -webkit-flex: unset !important;
+    -moz-flex: unset !important;
+    -ms-flex: unset !important;
+  }
+  .people li {
+    padding: 18px 5px;
+  }
+  .profile-divider {
+    display: none;
+  }
+  .people-pic {
+    height: 100% !important;
+  }
+}

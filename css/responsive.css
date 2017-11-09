@@ -55,7 +55,7 @@
   }
 }
 
-@medias screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .card-img {
     height: 100% !important;
   }

@@ -337,6 +337,7 @@ MEDIA
 
 .staff-img {
   width: 150px;
+  max-height: 100%;
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

@@ -145,6 +145,10 @@ LAYOUT
   font-family: 'Raleway', sans-serif !important;
 }
 
+.list-margin {
+  margin: -17px auto -10px !important;
+}
+
 .people-wrapper {
   max-width: 1000px !important;
   margin: 30px auto;
@@ -285,6 +289,10 @@ CONTENT
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   margin: 45px auto;
+}
+
+.italics {
+  font-style: italic;
 }
 
 
